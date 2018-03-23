@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test-unit",
-    "test-unit": "NODE_ENV=test mocha --require co-mocha 'lib/*.spec.js'"
+    "test-unit": "SET NODE_ENV=test&&mocha --require co-mocha ./lib/*.spec.js"
   },
   "keywords": [],
   "author": "",
